@@ -20,7 +20,7 @@ Destructors: A destructor is also a specialmember function like a constructor. D
 Destructor neither requires any argument nor returns any value. It is automatically called when an object goes out of scope. Destructor release memory space occupied by the objects created by the constructor. Objectsaredestroyedc in the reverse of an object creation.
 
 Code: 12A
-
+```
 #include<iostream> 
 #include<string>
 using namespace std; 
@@ -49,10 +49,10 @@ int main()
 {
     Data d1;
     d1.display();
-} 
+}
+```
 Code: 12B
-)
-
+```
 #include<iostream>
 using namespace std;
 class Num
@@ -74,9 +74,9 @@ int main()
 {
     Num n1(4,3);
 } 
-
+```
 Code:12C
-
+```
 #include<iostream>
 using namespace std;
 int count=0;
@@ -101,7 +101,7 @@ int main()
     }
     return 0;
 }
-
+```
 Conclusion:
 
 I learnt about constuctors and its types, destructors and performed various programs based on that.
